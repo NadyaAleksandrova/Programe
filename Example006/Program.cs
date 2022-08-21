@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите номер дня недели: ");
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 if (number > 7)
 {
     Console.WriteLine("Введен не верный формат дня недели");
