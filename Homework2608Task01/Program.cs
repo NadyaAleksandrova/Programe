@@ -16,8 +16,8 @@ void WriteArray(double[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            double alignNumber = Math.Round(array[i, j], 1);
-            Console.Write(alignNumber + " ");
+            double Number = Math.Round(array[i, j], 1);
+            Console.Write(Number + " ");
         }
         Console.WriteLine();
     }
