@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Введите числа ");
-int numberA = int.Parse(Console.ReadLine());
-int numberB = int.Parse(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA > numberB)
 {
     Console.WriteLine ("Первое число больше, второе число меньше");

@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите пятизначное число");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 string str = num.ToString();
 if (str.Length < 4 || str.Length > 4)
 {

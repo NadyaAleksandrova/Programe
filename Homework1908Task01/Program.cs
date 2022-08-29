@@ -28,7 +28,7 @@ int Positive(int[] Myarray)
     {
         if (Myarray[i] % 2 == 0)
         {
-            count= count + 1;
+            count++;
         }
     }
     return count;

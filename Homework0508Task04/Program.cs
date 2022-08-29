@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите число: ");
-int N = int.Parse(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());
 int count = 2;
 while (count < N)
 {
