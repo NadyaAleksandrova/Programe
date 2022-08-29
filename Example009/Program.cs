@@ -12,6 +12,6 @@
     Console.WriteLine ("4 четверть");
 }
 
-int x = int.Parse(Console.ReadLine());
-int y = int.Parse(Console.ReadLine());
+int x = Convert.ToInt32(Console.ReadLine());
+int y = Convert.ToInt32(Console.ReadLine());
 quatr (x, y);
