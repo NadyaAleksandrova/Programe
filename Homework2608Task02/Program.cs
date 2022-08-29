@@ -30,17 +30,17 @@ void PrintArray(int[,] array)
 
 
 
-bool SearchArray(int[,] searchableArray)
+bool SearchArray(int[,] аrray)
 {
     Console.WriteLine("Введите число: ");
     int k = Convert.ToInt32(Console.ReadLine());
     int rowIndex = -1;
     int colsIndex = -1;
-    for (int i = 0; i < searchableArray.GetLength(0); i++)
+    for (int i = 0; i < аrray.GetLength(0); i++)
     {
-        for (int j = 0; j < searchableArray.GetLength(1); j++)
+        for (int j = 0; j < аrray.GetLength(1); j++)
         {
-            if (searchableArray[i, j] == k)
+            if (аrray[i, j] == k)
             {
                 rowIndex = i;
                 colsIndex = j;
